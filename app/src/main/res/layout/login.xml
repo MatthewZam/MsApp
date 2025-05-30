@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="251dp"
+        android:layout_height="197dp"
+        android:background="@drawable/circle_background"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="60dp">
+        <ImageView
+            android:layout_width="251dp"
+            android:layout_height="197dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mslogo"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppins2"
+                android:textColor="@color/white"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/inp_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Username."
+                android:background="#30ffffff"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppins2"
+                android:textColor="@color/white"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/inp_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Password."
+                android:inputType="textPassword"
+                android:background="#30ffffff"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btn_login"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:backgroundTint="@color/blue"-->
+        <!--            android:background="@drawable/custom_btn"-->
+        <!--            android:text="LOGIN"-->
+        <!--            android:textSize="17dp"/>-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:background="#30ffffff"
+            android:gravity="center"
+            android:fontFamily="@font/poppins2"
+            android:hint="Login"
+            android:textColorHint="#ffffff"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

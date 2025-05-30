@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop Outlet"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/poppins2"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="16dp"
+        android:text="This is the location of our shop outlet. Please come by if you have the chance!"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppins2"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"/>
+    <fragment
+        android:layout_width="362dp"
+        android:layout_height="410dp"
+        android:layout_marginLeft="17dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_fragment"
+        app:itemIconTint="@drawable/bottom_navigation_icon_color"
+        app:menu="@menu/menu_fragment" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/circle_background"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/imageview"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/produk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/poppins2"
+        android:layout_toEndOf="@id/imageview"
+        android:text="Chino Shorts"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/produk"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/poppins2"
+        android:layout_toEndOf="@id/imageview"
+        android:text="Purchase Date :  10 April 2022"
+        android:textColor="@color/white"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tanggal"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@id/imageview"
+        android:fontFamily="@font/poppins2"
+        android:text="Total Price : Rp 75.000"
+        android:textColor="@color/white"
+        android:textSize="13dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Log Files
+*.log
+
+# Proguard folder
+proguard/
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Additional idea files
+/.idea/dictionaries
+/.idea/tasks.xml
+/.idea/gradle.xml
+
+# Keystore files (important for security)
+*.jks
+*.keystore
+
+# Google Services
+google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Android Profiling
+*.hprof
+
+# Windows files
+Thumbs.db
+
+# Lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
