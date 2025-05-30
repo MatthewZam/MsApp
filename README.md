@@ -1,5 +1,5 @@
 # MsApp
-Android mobile app that tracks offline store purchases and shows outlet locations using Google Mapsr authentication, purchase history, account balance, and real-time store location finder.
+Android mobile app that shows purchases history and shows outlet locations using Google Maps authentication and real-time store location finder.
 
 
 ## What it does
